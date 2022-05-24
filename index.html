@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek's Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+           color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170');
+         }
+         .left{
+            display: inline-block;
+             position: absolute;
+              
+              left: 34px;
+              top: 20px;
+            }
+            .left img{
+                width: 93px;
+            
+            }
+            .left div{
+                color: aliceblue;
+                text-align: center;
+            }
+         .mid{
+            display: inline-block;
+            position: absolute;
+             margin-left: 550px;
+             top: 20px;
+         }
+         .right{
+            position: absolute;
+           
+            top:20px;
+            right: 34px;
+         }
+         .right button{
+             padding: 5px 10px;
+             background-color: black;
+             color: aliceblue;
+
+         }
+         .navbar{
+           
+             display: inline-block;
+         }
+         .navbar li{
+            display: inline-block;
+         }
+         .navbar li a{
+            color: white;
+             padding: 10px 10px;
+         }
+         .navbar li a:hover, .navbar li a.active{
+             color: rgb(196, 182, 216);
+
+         }
+         .btn:hover{
+             background-color: rgb(89, 98, 89);
+         }
+         .btn{
+             background-color: black;
+             color: azure;
+         }
+         .bn{
+             margin-left: 60px;
+         }
+         .container{
+             
+             position: absolute;
+             top: 200px;
+             border-radius: 20px;
+             padding: 10px 20px;
+             left: 1200px;
+         }
+         .form{
+             padding: 3px;
+         }
+         .form input{
+             text-align: center;
+             border-radius: 20px;
+         }
+         </style>
+
+</head>
+<body>
+    
+<div class="left"> 
+  <img src="https://previews.123rf.com/images/kasyanovcreation/kasyanovcreation1901/kasyanovcreation190100020/116811226-vintage-illustration-of-a-gorilla-bodybuilder-with-chain.jpg" alt="img">
+ <div>Hegde fitness</div>    
+</div>
+    <div class="mid"> 
+        <ul class="navbar"> 
+            <li> <a href="#" class="active"> Home</a></li>
+            <li> <a href="#"> About Us </a> </li>
+            <li><a href="#"> Registration</a></li>
+            <li><a href="#"> Login</a></li>
+        </ul>
+    </div>
+
+    <div class="right"> 
+       <button class="btn">Call us</button><button class="btn">Email us</button>
+    </div>
+
+   <div class="container">
+       <h1 class="re"> Register Here</h1>
+
+<form action="nocation.php">
+   
+<div class="form">
+<input type="text" name="name" placeholder="Name">
+</div>
+
+<div class="form">
+    <input type="text" name="phone" placeholder="Phone number">
+</div>
+
+<div class="form">
+<input type="text" name="email" placeholder="Email-Id">
+</div>
+
+<div class="bn">
+<button class="btn">submit</button> 
+</div>
+
+</form>
+</div>
+      
+   
+
+</body>
+</html>
